@@ -1,14 +1,14 @@
 # React_TypeScript-RandomUserAPI
 
-## PROJECT: 
+### PROJECT: 
 In this project, we display random users' profile pic, name, dob & city of residence. A very, very minimal <div> Title Button & UserData <div> display sandwiched btw <Header> & <Footer>. But cool logic for the button, that fetches data from https://randomuser.me/api . 
 
 **See the final deployment** --> https://gcmo.github.io/React_TypeScript-RandomUserAPI/
 
-## OBJECTIVE:
+### OBJECTIVE:
 I've been focusing on TypeScript, as next challenge in JavaScript land. With this project, I wanted to challenge my TS skills within React.    
 
-## LEARNING CURVE:
+### LEARNING CURVE:
 Typescript within React is pretty straight-fowards:
   a) **Rule of Thumb(ROT) 1:** just let it detect the type of a variable according to the value assigned.
   b) but what about {props} useState, useEffect and events? Welll... you just learn what type should be assigned to them. 
@@ -17,7 +17,7 @@ Typescript within React is pretty straight-fowards:
   d) Pay extra attention to API data... mostly doable with interface, but in some cases generics may work better. 
   
   
-## CHALLENGES:
+### CHALLENGES:
   props, state, 
 
 
