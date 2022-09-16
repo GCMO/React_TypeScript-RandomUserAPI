@@ -11,11 +11,19 @@ interface Iname {
 }
 
 interface Iuser {
-  picture: string;
+  picture: Ipicture;
   age: number;
   city: string;
   name: Iname;
 }
+
+interface Ipicture {
+  large: string;
+  medium: string;
+  thumbnail: string;
+}
+
+
 
 function App() {
 
@@ -52,9 +60,8 @@ const onClickHandler = () => {
           </div>
         </header>
 
-        <div className="container mb-5 column position-sticky justify-content-center">
-          <h1> Random User Generator </h1>
-          <h2>  React + TypeScript </h2>
+        <div className=" container mb-5 col-11 column position-sticky justify-content-center">
+          <h1 className='text-center'> RANDOM USER GENERATOR </h1>
         
           <Button isActive={activeUser} clicked={onClickHandler}/>
           
@@ -63,7 +70,7 @@ const onClickHandler = () => {
               {userData.map((user: Iuser, index: number) => {
                 return (
                   <Fragment key={index}>
-                    {/* <img src={user.picture.large} alt="#"/> looked this data up in console  */}
+                    <img src={user.picture.large} alt="#"/> {/* look this data up in console  */}
                     <UserData user={user}/>
                   </Fragment>
                 );
@@ -73,8 +80,8 @@ const onClickHandler = () => {
         </div>
 
         <footer className="row bg-black position-sticky justify-content-center p-5">
-          <div className="col-4">
-            <a className="text-white" href="https://github.com/gcmo">Github</a>
+          <div className="col-4 text-center">
+            <a className="text-white " href="https://github.com/gcmo">Github</a>
           </div>
         </footer>
 
