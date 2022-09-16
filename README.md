@@ -3,7 +3,8 @@
 ## PROJECT:
 
 In this project, we display random users' profile pic, name, dob & city of residence. A very, very minimal <div> Title Button & UserData <div> display sandwiched btw <Header> & <Footer>. But cool logic for the button, that fetches data from https://randomuser.me/api . 
-To see the final deployment --> https://gcmo.github.io/React_TypeScript-RandomUserAPI/
+
+**See the final deployment** --> https://gcmo.github.io/React_TypeScript-RandomUserAPI/
 
 ## OBJECTIVE:
 I've been focusing on TypeScript, as next challenge in JavaScript land. With this project, I wanted to challenge my TS skills within React.    
